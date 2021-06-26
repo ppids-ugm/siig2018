@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="favicon">
+  <title>Simposium Infrastruktur Informasi Geospasial</title>
+  <meta name="description" content="Simposium IIG">
+  <meta name="keywords" content="conference IIG indonesia">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="aquamarine.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
+</head>
+
+<body class="text-center">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tema">Tema</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#speakers">Pembicara
+              <br> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cfp">Call for Papers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Agenda</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="#register">Daftar Sekarang</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Cover -->
+  <div class="d-flex align-items-center section-aquamarine py-5 cover" style="background-image: url('assets/conference/DJI_0493.JPG');" id="beranda">
+    <div class="container" id="beranda">
+      <div class="row">
+        <div class="col-lg-12 text-white mt-5">
+          <h1 class="d-none d-md-block display-3">Simposium Infrastruktur Informasi Geospasial 2018</h1>
+          <h1 class="display-4 d-block d-md-none">Conference Pingendo</h1>
+          <p class="lead">"Infrastruktur Informasi Geospasial untuk Mendukung Kebijakan Satu Peta"</p>
+          <p class="">Yogyakarta, 8 Mei 2018</p>
+          <a href="#register" class="btn btn-lg mt-4 btn-outline-light">Daftar Sekarang</a><i class="d-block fa fa-angle-down pt-5 fa-3x"></i> </div>
+      </div>
+    </div>
+  </div>
+  <!-- Parallax section -->
+  <div class="py-5 section-parallax bg-primary section-light" style="background-image: url('assets/conference/architecture-auditorium-building-159213.jpg');">
+    <div class="container my-5 bg-light p-4">
+      <div class="row mx-auto">
+        <div class="col-md-12">
+          <h1 class="mb-3">Tentang SIIG 2018</h1>
+          <p class="">Simposium Infrastruktur Informasi Geospasial merupakan agenda tahunan yang dilaksanakan sebagai bentuk kerjasama antara Pusat Pengembangan Infrastruktur Data Spasial (PPIDS), Badan Informasi Geospasial (BIG) serta Universitas Gadjah Mada (UGM)
+            Yogyakarta. Simposium IIG bertujuan untuk mewadahi peneliti, mahasiswa dan pelaku industri di bidang informasi Geospasial untuk mempublikasikan perkembangan terbaru di bidang Informasi Geospasial. Tahun 2018 merupakan kali pertama event ini
+            diselenggarakan</p>
+          <a href="#schedule" class="btn btn-outline-primary btn-lg m-2">Lihat Agenda</a>
+          <a class="btn btn-primary btn-lg m-2" href="#register">Daftar Sekarang</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-light py-4" id="tema">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="mb-4 text-primary">Tema Simposium</h1>
+          <p class="lead">Simposium Infrastruktur Informasi Geospasial 2018 mengangkat tema utama mengenai "Infrastruktur Informasi Geospasial untuk Mendukung Kebijakan Satu Peta"</p>
+          <div class="row">
+            <div class="my-3 col-md-4">
+              <div class="row mb-3">
+                <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-book"></i></div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary"><b>Teknologi dan Standard</b></h5>
+                </div>
+              </div>
+              <ul class="text-left">
+                <li>Aplikasi Geoportal
+                  <br> </li>
+                <li>Metadata</li>
+                <li>Katalog Fitur</li>
+                <li>Penerapan Standar DG/IG</li>
+                <li>Integrasi IIG</li>
+              </ul>
+            </div>
+            <div class="my-3 col-md-4">
+              <div class="row mb-3">
+                <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-database"></i></div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary"><b>Fundamental Dataset</b></h5>
+                </div>
+              </div>
+              <ul class="text-left">
+                <li>Penyediaan IG Dasar
+                  <br> </li>
+                <li>Sistem Referensi dan Jaring Kontrol Geodesi</li>
+                <li>Digital Elevation Model</li>
+                <li>Batas Wilayah Administrasi</li>
+                <li>Kadaster dan Pertanahan</li>
+                <li>Kontrol Kualitas dan Penjaminan Kualitas</li>
+              </ul>
+            </div>
+            <div class="my-3 col-md-4">
+              <div class="row mb-3">
+                <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-area-chart"></i></div>
+                <div class="align-self-center col-10">
+                  <h5 class="text-secondary"><b>Perkembangan IIG di Indonesia</b></h5>
+                </div>
+              </div>
+              <ul class="text-left">
+                <li>IIG di Tingkat Nasional dan Daerah
+                  <br> </li>
+                <li>Kesiapan Pembangunan IIG</li>
+                <li>Asesmen Kinerja IIG</li>
+                <li>Kebjiakan dan Kelembagaan</li>
+                <li>Pembangunan Kapasitas Daerah</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-4 my-3">
+                  <div class="row mb-3">
+                    <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-calculator"></i></div>
+                    <div class="align-self-center col-10">
+                      <h5 class="text-secondary"><b>Pemanfaatan IIG</b></h5>
+                    </div>
+                  </div>
+                  <ul class="text-left">
+                    <li>Aplikasi untuk Penataan Ruang
+                      <br> </li>
+                    <li>Aplikasi untuk SmartCity</li>
+                    <li>Aplikasi bidang Infrastruktur</li>
+                    <li>Aplikasi bidang Pertanahan</li>
+                    <li>Aplikasi bidang Lingkungan</li>
+                    <li>Aplikasi bidang Kelautan</li>
+                    <li>Aplikasi bidang Kesehatan</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 my-3">
+                  <div class="row mb-3">
+                    <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-cogs"></i></div>
+                    <div class="align-self-center col-10">
+                      <h5 class="text-secondary"><b>Sistem Informasi Geospasial</b></h5>
+                    </div>
+                  </div>
+                  <ul class="text-left">
+                    <li>Analisis Spasial
+                      <br> </li>
+                    <li>WebGIS dan Mobile GIS</li>
+                    <li>Crowdsourcing data</li>
+                    <li>Decision Support System</li>
+                    <li>Geospatial Visual&nbsp;Analytics</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 my-3">
+                  <div class="row mb-3">
+                    <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-plane"></i></div>
+                    <div class="align-self-center col-10">
+                      <h5 class="text-secondary"><b>Penginderaan Jauh</b></h5>
+                    </div>
+                  </div>
+                  <ul class="text-left">
+                    <li>Sensor dan Platform
+                      <br> </li>
+                    <li>Pengolahan data</li>
+                    <li>UAV Mapping</li>
+                    <li>Ekstraksi Informasi</li>
+                    <li>3D Modeling</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="align-self-center col-10 col-md-12">
+                  <div class="text-center col-2 col-md-12">
+                    <div class="col-md-5 mx-auto">
+                      <div class="row mb-3">
+                        <div class="text-center col-2"><i class="d-block mx-auto fa fa-3x fa-connectdevelop"></i></div>
+                        <div class="align-self-center col-10">
+                          <h5 class="text-secondary"><b>Topik Lain dalam Survey Pemetaan</b></h5>
+                        </div>
+                      </div>
+                      <ul class="text-left">
+                        <li>Hidrografi
+                          <br> </li>
+                        <li>Aspek Ekonomi geospasial</li>
+                        <li>Pengembangan SDM</li>
+                        <li>Implementasi SKKNI Bidang Informasi Geospasial</li>
+                        <li>Industri IG Nasional</li>
+                        <li>Informasi Geospasial dalam era Industry 4.0</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Speakers -->
+  <div class="py-5 bg-light" id="speakers">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Keynote Speakers</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-6 animate-in-left">
+          <a href="#">
+            <img src="assets/conference/adirusmanto2.jpg" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>Drs. Adi Rusmanto, MT</b></h3>
+            <p class="text-muted">Deputi Bidang Infrastruktur Informasi Geospasial
+              <br>Badan Informasi Geospasial</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-6 animate-in-right">
+          <a href="#">
+            <img src="assets/conference/herisutanta2.jpg" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0">Heri Sutanta, ST., M.Sc., Ph.D</h3>
+            <p class="text-muted">Ketua PPIDS UGM</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Schedule -->
+  <!-- Sponsor logos -->
+  <div class="py-5 text-center bg-secondary" id="cfp">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-light">Call for Papers</h1>
+              <p class="text-light">Simposium IIG memberikan kesempatan kepada peneliti dan pegiat informasi geospasial di Indonesia untuk mempublikasikan kemajuan terbaru di bidang IG dalam bentuk prosiding.&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-7">
+          <h2 class="text-primary">Format Abstrak dan Makalah</h2>
+          <p class="lead">Format Abstrak</p>
+          <p class="">Abstrak menyajikan latar belakang, metode, hasil dan kesimpulan penelitian dengan singkat dan jelas. Abstrak ditulis huruf Times New Roman 11 sebanyak 250 kata. Abstrak dilengkapi dengan 3-5 kata kunci.&nbsp;
+            <br> </p>
+          <p class="lead">Format Makalah</p>
+          <p class="">Makalah ditulis dengan mengacu pada template yang disediakan. Panjang naskah </p>
+        </div>
+        <div class="col-md-5 align-self-center">
+          <img class="img-fluid d-block w-100 img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_9.jpg"> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <img class="img-fluid d-block mb-4 w-100 img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_3.jpg"> </div>
+        <div class="col-md-7">
+          <h2 class="text-primary pt-3">Scientific Committee</h2>
+          <p class="">Diyono
+            <br>&nbsp;Harintaka
+            <br>&nbsp;Heri Sutanta
+            <br>&nbsp;Nurrohmat Widjajanti
+            <br>&nbsp;Purnama Budi Santosa</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-primary pt-3">Tanggal Penting</h2>
+          <p class="">Pengumpulan Abstrak: <b>23 April 2018</b>
+            <br>&nbsp;Pengumuman abstrak yang diterima:<b> 26 April 2018</b>
+            <br>&nbsp; Pengumpulan makalah lengkap: <b>4 Mei 2018</b>
+            <br>&nbsp;Pelaksanaan Simposium: <b>9 Mei 2018</b>
+            <br>&nbsp; Abstrak dan makalah lengkap dikirimkan melalui email ke <b><a href="#">ppids@ugm.ac.id</a>&nbsp;</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section bg-faded bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="mb-4">Biaya Seminar</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-6">
+          <h4 class=""><b>Peserta</b></h4>
+          <p class="">Mahasiswa : Rp.150.000&nbsp;
+            <br>Umum : Rp.200.000</p>
+        </div>
+        <div class="col-md-4 col-6">
+          <h4 class=""><b>Pemakalah</b></h4>
+          <p class="">Mahasiswa : Rp.250.000 &nbsp;
+            <br>Umum : Rp.300.000</p>
+        </div>
+        <div class="col-md-4 col-6">
+          <h4 class=""><b>Prosiding</b></h4>
+          <p class="">Rp. 250.000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 section-parallax" id="schedule" style="background-image: url(&quot;assets/conference/schedule.jpg&quot;);">
+    <div class="container section-aquamarine">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-white mt-4">Agenda</h1>
+        </div>
+      </div>
+      <div class="row text-left text-dark">
+        <div class="p-4 col-md-12 col-lg-12">
+          <div class="card">
+            <div class="card-block text-center card-primary p-2">
+              <h2>Rabu, 8 Mei 2018</h2>
+              <p class="lead">Ruang Sidang 2.1 KPFT UGM</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;08:00-09:00 –&nbsp;<b>Registrasi</b></li>
+              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;10:00-12:00 –&nbsp;<b>Pembukaan dan sambutan</b>
+                <br> </li>
+              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;12:00-13:00 –&nbsp;<b>Q&amp;A</b></li>
+              <li class="list-group-item bg-info"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;13:00-14:30 –&nbsp;<b>Lunch</b></li>
+              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;14:30-16:00 –&nbsp;<b>Besties</b></li>
+              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;16:00-18:00 –&nbsp;<b>Workshop</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Call to action -->
+  <!-- Footer -->
+  <footer class="text-md-left text-center p-4 bg-dark text-light section-parallax section-dark" id="register">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-white">Pendaftaran Peserta</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="my-3 col-md-6 col-lg-6">
+          <h3>Seminar IIG 2018</h3>
+          <p class="text-muted">9 Mei 2018</p>
+          <p class="lead text-center text-primary py-0">Informasi Pendaftaran</p>
+          <p class="text-center my-2">Sekretariat Panitia SIIG 2018
+            <br>Pusat Pengembangan Infrastruktur Data Spasial (PPIDS), Jl. Grafika No.2 Bulaksumur Yogyakarta 55281
+            <br>e-mail: ppids@ugm.ac.id&nbsp;
+            <br>Dany Laksono : 0813 9297 6068&nbsp;
+            <br>Annisa Farida : 0852 9283 7800</p>
+          <a class="btn btn-block btn-primary" href="#">Daftar Sekarang</a>
+        </div>
+        <div class="my-3 col-md-6 col-lg-6">
+          <h3>Lokasi Acara</h3>
+          <img class="d-block img-fluid rounded" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=KPFT+UGM&amp;center=KPFT+UGM&amp;zoom=12&amp;size=640x480&amp;sensor=false"> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-muted">© Copyright 2018 PPIDS UGM</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in a same page -->
+  <script src="js/smooth-scroll.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
